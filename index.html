@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Feliz Aniversário ❤️</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    body {
+      margin: 0;
+      overflow: hidden;
+      background: radial-gradient(circle at top, #1a1a1a, #000000);
+      font-family: Arial, sans-serif;
+    }
+
+    #overlay {
+      position: absolute;
+      top: 20px;
+      width: 100%;
+      text-align: center;
+      color: white;
+      z-index: 10;
+      pointer-events: none;
+    }
+
+    #overlay h1 {
+      font-size: 2rem;
+      margin-bottom: 5px;
+    }
+
+    #mensagem {
+      font-size: 1.1rem;
+      opacity: 0.9;
+    }
+  </style>
+</head>
+<body>
+
+  <div id="overlay">
+    <h1>Feliz Aniversário, mi amor🎉</h1>
+    <div id="mensagem">
+      <!-- A MENSAGEM FICA AQUI, NO CÓDIGO -->
+      Te amo gatinha mesmo meio longe ❤️
+    </div>
+  </div>
+
+  <!-- Three.js -->
+  <script src="https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/three@0.160.0/examples/js/loaders/GLTFLoader.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/three@0.160.0/examples/js/controls/OrbitControls.js"></script>
+
+  <script src="script.js"></script>
+</body>
+</html>
